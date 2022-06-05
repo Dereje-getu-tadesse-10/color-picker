@@ -25,4 +25,10 @@ function getRandomColor() {
 
 function copyColor() {
     document.execCommand('copy');
+    // set time out 1s to remove the message after copy
+    hexCode.textContent = 'Hex code Copied !';
+    setTimeout(() => {
+        hexCode.textContent = getRandomColor();
+    }, 1000);
+
 }
