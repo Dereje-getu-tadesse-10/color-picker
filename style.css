@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hexCode{
+    margin: 50px auto;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.color{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width:32%;
+}
+
+button{
+    padding: 5px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+}
